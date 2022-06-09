@@ -1,0 +1,8 @@
+.navbar-dark a, span.navbar-brand {
+    color: var(--bs-orange);
+}
+
+.navbar-dark a.active {
+    color: var(--bs-orange);
+    text-decoration: underline;
+}

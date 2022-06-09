@@ -1,0 +1,7 @@
+.card-header {
+    background-color: var(--bs-orange);
+}
+
+.card-footer {
+    cursor: pointer;
+}

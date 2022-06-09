@@ -1,0 +1,30 @@
+<div class="row mt-5">
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+              Daily Check-In
+            </div>
+            <div class="card-body">
+                <form class="row" [formGroup]="checkinForm" (ngSubmit)="submitForm()">
+                    <div class="col-sm-12">
+                        <div class="form-group w-100">
+                            <input type="date" class="form-control" id="exampleFormControlInput1" formControlName="date">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 mt-3">
+                        <div class="input-group mb-3">
+                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Weight" formControlName="weight">
+                            <div class="input-group-append">
+                                <span class="input-group-text">kg</span>
+                            </div>
+                            <span *ngIf="formError" id="weight-error" class="form-text">Please insert a value for the weight to be added!</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <button type="subimt" class="btn btn-primary w-100">Confirm weight</button>
+                    </div>
+                </form>
+            </div>
+          </div>
+    </div>
+</div>

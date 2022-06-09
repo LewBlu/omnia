@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "omnia-6e20d": {
+      "hosting": {
+        "omnia": [
+          "omnia-6e20d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "omnia-6e20d"
+  }
+}
