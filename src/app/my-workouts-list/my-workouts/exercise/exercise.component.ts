@@ -9,6 +9,5 @@ export class ExerciseComponent implements OnInit {
   is_visible: boolean = false;
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 }

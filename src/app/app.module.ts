@@ -13,8 +13,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { FooterComponent } from './navigation/footer/footer.component';
 
-import { LogBookComponent } from './log-book/log-book.component';
-import { ExerciseComponent } from './log-book/exercise/exercise.component';
+import { ExerciseComponent } from './my-workouts-list/my-workouts/exercise/exercise.component';
 import { ChartComponent } from './progress/chart/chart.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SettingsComponent } from './settings/settings.component';
@@ -23,6 +22,9 @@ import { ExerciseItemComponent } from './settings/exercises/exercise-item/exerci
 import { WeightFormComponent } from './progress/weight-form/weight-form.component';
 
 import { Error404Component } from './error404/error404.component';
+import { MyWorkoutsComponent } from './my-workouts-list/my-workouts/my-workouts.component';
+import { MyWorkoutsListComponent } from './my-workouts-list/my-workouts-list.component';
+import { WorkoutComponent } from './my-workouts-list/my-workouts/workout/workout.component';
 
 @NgModule({
   declarations: [
@@ -30,14 +32,16 @@ import { Error404Component } from './error404/error404.component';
     ExerciseComponent,
     HeaderComponent,
     FooterComponent,
-    LogBookComponent,
     Error404Component,
     ProgressComponent,
     ChartComponent,
     SettingsComponent,
     ExercisesComponent,
     ExerciseItemComponent,
-    WeightFormComponent
+    WeightFormComponent,
+    MyWorkoutsComponent,
+    MyWorkoutsListComponent,
+    WorkoutComponent
   ],
   imports: [
     BrowserModule,
