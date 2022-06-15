@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
 export class ProgressComponent implements OnInit, OnDestroy {
   labelArray: string[] = [];
   weightArray: number[] = [];
-
+  
   userWeightSubscription!: Subscription;
 
   constructor(private firestore: AngularFirestore) { }

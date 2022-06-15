@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -8,6 +8,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 })
 export class MyWorkoutsComponent implements OnInit {
   faCheck = faCheck;
+  @Input() workout: any;
   constructor() { }
 
   ngOnInit(): void { }
